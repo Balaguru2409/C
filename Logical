@@ -1,0 +1,32 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a,b,c;
+	clrscr();
+	printf("enter the A value");
+	scanf("%d",&a);
+	printf("enter the B value");
+	scanf("%d",&b);
+	printf("enter the C value");
+	scanf("%d",&c);
+	if(a<18 && b<18 && c<18)
+	{
+		printf("The three person are eligable 
+
+to vote");
+	}
+	if(a>18 || b<18 || c==18)
+	{
+		printf("One of the person can vote");
+	}
+	 if(!(a==18))
+	{
+		printf("cannot vote");
+	}
+	else
+	{
+		printf("can vote");
+	}
+	getch();
+}             d
